@@ -1,0 +1,67 @@
+header{
+    padding: 15px 15px 15px 0;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#hamburgermenu{
+    display: none;
+}
+
+.hamburgermenu-icon{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    
+}
+
+.hamburgermenu-icon span{
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 30px;
+    padding: 10px 20px;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    color: black;
+
+}
+
+.menu a:hover{
+    color: blue;
+}
+
+#hamburgermenu:checked + .hamburgermenu-icon + .menu{
+    display: flex;
+}
+
+.vlag{
+    width: 50px
+}
