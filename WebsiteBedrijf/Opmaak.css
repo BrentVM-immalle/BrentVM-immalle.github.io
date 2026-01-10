@@ -1,17 +1,19 @@
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 header{
     padding: 15px 15px 15px 0;
     display: flex;
     position: relative;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-   
 }
 
 body{
-    
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 #hamburgermenu{
@@ -24,7 +26,6 @@ body{
     flex-direction: column;
     gap: 6px;
     cursor: pointer;
-    
 }
 
 .hamburgermenu-icon span{
@@ -44,6 +45,8 @@ body{
     width: 100%;
     text-align: center;
     font-size: 20px;
+    overflow: hidden;
+    height: auto;
 }
 
 .menu a{
@@ -51,7 +54,6 @@ body{
     text-decoration: none;
     padding: 35px;
     color: black;
-
 }
 
 .menu a:hover{
@@ -60,6 +62,11 @@ body{
 
 #hamburgermenu:checked + .hamburgermenu-icon + .menu{
     display: flex;
+}
+
+.Logo{
+    width: 50px;
+    margin: 5px 0 0 5px;
 }
 
 .vlag{
