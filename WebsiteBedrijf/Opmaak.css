@@ -66,9 +66,15 @@ body{
 
 .Logo{
     width: 50px;
-    margin: 5px 0 0 5px;
+    margin: 10px 0 0 10px;
 }
 
 .vlag{
     width: 50px
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: 0 0 5px 5px;
 }
